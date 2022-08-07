@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+#logo
+,nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 1rem 2.5rem;
+}
+
+#logo {
+    vertical-align: middle;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 1rem;
+    color: #e5e7eb
+}
+
+/* Body */
+
+.hero-area {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 11rem 2.5rem;
+}
+
+#title {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+#placeholder {
+    padding-top: 15%;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    background-color: #6d747d;
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.right-hero {
+    width: 50%;
+}
+
+.right-hero p{
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    margin-top: -2rem;
+}
+
+.cards-area {
+    padding: 8rem 2.5rem;
+}
+
+.cards-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 5rem;
+}
+
+.card {
+    width: 20rem;
+    height: 20rem;
+}
+
+.card p {
+    text-align: center;
+}
+
+.box {
+    border: 5px solid #3882f6;
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.quote-area {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: light;
+    padding: 2rem 2.5rem;
+    font-size: 2.1rem;
+    line-height: 3rem;
+}
+
+figcaption {
+    text-align: right;
+}
+
+.signUp-area {
+    padding: 8rem 2.5rem;
+}
+
+#signUp-banner {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 5rem;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.banner-left h2 {
+    text-align: left;
+}
+
+figure {
+    padding: 3rem;
+}
+
+.banner-right button{
+    vertical-align: middle;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 5px solid #f9faf8;
+}
+
+.banner-left p{
+    color: #e5e7eb;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    vertical-align: middle;
+}
